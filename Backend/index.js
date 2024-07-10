@@ -6,13 +6,13 @@ app.get('/',(req ,res) =>{
     res.send('server is online');
 })
 
-app.get('/niti',(req ,res) =>{
-    res.send('Nitish is online');
-})
+// app.get('/niti',(req ,res) =>{
+//     res.send('Nitish is online');
+// })
 
 
 //get a list of 5 jockes
-app.get('/jokes',(req , res) => {
+app.get('/api/jokes',(req , res) => {
     const jokes =[
         {
             "id": 1,
